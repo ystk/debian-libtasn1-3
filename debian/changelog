@@ -1,3 +1,12 @@
+libtasn1-3 (2.7-1+squeeze+2) squeeze-lts; urgency=low
+
+  * CVE-2014-3467 (the DECR_LEN changes were omitted, since too intrusive
+                to backport for little impact)
+  * CVE-2014-3468
+  * CVE-2014-3469
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 26 Oct 2014 10:59:38 +0100
+
 libtasn1-3 (2.7-1+squeeze+1) stable-security; urgency=low
 
   * ASN.1 length decoding vulnerability. CVE-2012-1569.
