@@ -1,3 +1,11 @@
+libtasn1-3 (2.7-1+squeeze+3) squeeze-lts; urgency=low
+
+  * Non-maintainer upload by the Squeeze LTS Team.
+  * Add CVE-2015-2806.patch patch.
+    CVE-2015-2806: stack overflow in asn1_der_decoding.
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 12 Apr 2015 17:47:38 +0200
+
 libtasn1-3 (2.7-1+squeeze+2) squeeze-lts; urgency=low
 
   * CVE-2014-3467 (the DECR_LEN changes were omitted, since too intrusive
